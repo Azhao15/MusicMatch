@@ -4,11 +4,7 @@ import random
 from flask import (
     Blueprint, flash, redirect, render_template, request, session
 )
-from werkzeug.utils import secure_filename
-from werkzeug.security import check_password_hash, generate_password_hash
 from musicproject.database import db_session
-
-from sqlalchemy import update
 
 from musicproject.auth import login_required
 from musicproject.helpers import find_song, find_song_with_artist, find_image_from_song

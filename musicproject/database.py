@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, LargeBinary
+from sqlalchemy import Column, Integer, String
 
 # create database in sqlalchemy
 engine = create_engine('sqlite:///musicMatch.db')

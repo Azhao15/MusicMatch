@@ -6,6 +6,7 @@ flash==1.0.3
 Flask==2.0.2
 Flask-Session==0.4.0
 Flask-SQLAlchemy==2.5.1
+greenlet==2.0.1
 idna==3.3
 itsdangerous==2.0.1
 Jinja2==3.0.2
@@ -14,3 +15,4 @@ requests==2.26.0
 SQLAlchemy==1.4.26
 urllib3==1.26.7
 Werkzeug==2.0.2
+spotipy==2.21.0
