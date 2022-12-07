@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Recommendations
+{% endblock %}
+
+{% block main %}
+<br>
+<div class="col-6 mx-auto bg-dark border border-0 rounded-3 font" style="background: #1DB954 !important;">
+    <br>
+    <h3>Here's your recommended song:</h3><br>
+    <img src="{{ img_url }}" alt="album image" width="300" height="300"><br><br>
+    <h4>{{ recommended_song.name }} by {{ artists[0] }} </h4><br>
+</div>
+{% endblock %}

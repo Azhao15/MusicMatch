@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block main %}
+<br>
+<div class="col-6 mx-auto bg-dark border border-0 rounded-3 font" style="background: #1DB954 !important;">
+    <br>
+    <h3>Here's your list of songs:</h3><br>
+    {% for song in songList %}
+        <img src="{{ song.img_url[0] }}" alt="album image" width="300" height="300"><br><br>
+        <h4>{{ song.name[0] }} by {{ song.artists[0][0].name }}</h4><br>
+    {% endfor %}
+</div>
+{% endblock %}

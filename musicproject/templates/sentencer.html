@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Sentencer
+{% endblock %}
+
+{% block main %}
+<br>
+<br>
+<div class="col-10 mx-auto bg-dark border border-0 rounded-3" style="background: #1DB954 !important;">
+  <br>
+  <h3 style="color:white; font-family:'Montserrat';font-size: 45px;">The Sentencer</h3><br>
+  <h4 style="color:white; font-family:'Montserrat';font-size: 25px;">Type a sentence below, and we'll match a song to each word of your sentence</h4><br>
+  <form action="/sentencer" method="post">
+    <div class="col-10 form-floating mx-auto">
+      <input autocomplete="off" autofocus class="form-control" id="sentence" name="sentence" placeholder="Sentence:" type="text">
+      <label for="sentence"> Sentence:</label>
+    </div>
+    <br>
+    <div class="pb-4">
+        <button class="btn btn-primary col-1" type="submit">Convert</button>
+    </div>
+  </form>
+  <br>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+<br>
+<div class="col-6 mx-auto bg-dark border border-0 rounded-3 font" style="background: #1DB954 !important;">
+  <br>
+  <h3>The Recommender</h3><br>
+  <h4>Enter your favorite song below!</h4><br>
+  <form action="/recommender" method="post">
+    <div class="col-10 form-floating mx-auto">
+        <input autocomplete="off" autofocus class="form-control" id="song" name="song" placeholder="Song Name" type="text">
+        <label for="song"> Song Name</label>
+    </div>
+    <br>
+    <div class="col-10 form-floating mx-auto">
+        <input autocomplete="off" autofocus class="form-control" id="artist" name="artist" placeholder="Artist" type="text">
+        <label for="artist"> Artist Name</label>
+    </div>
+    <br>
+    <div class="pb-4 mb-3">
+        <button class="btn btn-primary col-2" type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+  
+{% endblock %}
