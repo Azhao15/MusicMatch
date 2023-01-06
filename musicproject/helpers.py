@@ -4,8 +4,9 @@ from collections import defaultdict
 
 
 # set up spotify api
-client_id = '11c819224b5c403ea66ea4530fbad948'
-client_secret = '306a7879f4a14c9a8cc6a8b002277a92'
+# insert client_id and client_secret below
+client_id = ''
+client_secret = ''
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 
 
