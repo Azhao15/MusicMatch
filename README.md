@@ -5,7 +5,8 @@ Music Match is a web application that assists users in finding new songs to list
 Youtube video link: https://youtu.be/E7IUok1w04w
  
 # To Get Started
- 
+Retrieve a Spotify API Client ID and Client Secret from https://api.spotify.com, then enter the Client ID and Client Secret to their respective locations at the top of helpers.py in the musicproject folder.
+
 Check if you have pip by heading to your terminal and running <br/>
 `pip --version` <br/>
 If pip is not installed, you will get an error that looks like "pip not found". Install pip using [Online Guide](https://www.geeksforgeeks.org/download-and-install-pip-latest-version/) <br/>
