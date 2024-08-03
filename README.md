@@ -1,8 +1,6 @@
 # Music Match
  
 Music Match is a web application that assists users in finding new songs to listen to. This is my documentation for Music Match.
-
-Youtube video link: https://youtu.be/E7IUok1w04w
  
 # To Get Started
 Retrieve a Spotify API Client ID and Client Secret from https://api.spotify.com, then enter the Client ID and Client Secret to their respective locations at the top of helpers.py in the musicproject folder.
